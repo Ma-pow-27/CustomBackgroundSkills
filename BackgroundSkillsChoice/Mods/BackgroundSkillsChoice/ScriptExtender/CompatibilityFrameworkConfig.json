@@ -1,0 +1,30 @@
+{
+  "FileVersion": 1,
+  "Progressions": [
+    {
+      "UUIDs": ["dbde4d66-d3e4-4c3f-ae87-fd6e2d1cd276", 
+				"496486a4-b5f2-4f91-90ea-6cad9023952e", 
+				"4a634f24-bdcb-4559-b8be-7847133ad1c3",
+				"3c9a0bd8-bb0f-4a42-b77f-7a9a1cff2e5d",
+				"a1729574-2f7b-4561-91d8-3766cf940420",
+				"d48f8fb3-4351-4b5d-a28c-946fd33be726",
+				"963edcba-c572-4f51-b447-8810bbb43a8e",
+				"56529178-3df2-4067-b1c0-e35fe82fbd37",
+				"cabc4d46-f08e-4a48-8937-0bd1067ab43d",
+				"816fa8c7-7648-48f7-8309-cb4e7383e45f",
+				"f653d537-bc14-4fea-b7d2-25734ec928a2"],
+      "Selectors": [
+        {
+          "Action": "Insert",
+          "Function": "SelectSkills",
+		  "Overwrite": false,
+          "Params": {
+            "Guid": "f974ebd6-3725-4b90-bb5c-2b647d41615d",
+            "Amount": "2",
+			"SelectorId": "HumanVersatility"
+          }
+        }
+      ],
+    }
+  ]
+}
