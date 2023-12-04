@@ -1,5 +1,0 @@
-{
-  "RequiredVersion": 8,
-  "ModTable": "BackgroundSkillsChoice",
-  "FeatureFlags": [ "Lua" ]
-}
