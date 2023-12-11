@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="0" revision="9" build="329"/>
+    <region id="DefaultValues">
+        <node id="root">
+            <children>
+				<node id="DefaultValue">
+                    <attribute id="Add" type="LSString" value="Persuasion;Survival;Investigation;Performance;History;Religion;Perception;Stealth;SleightOfHand;Athletics;Acrobatics;Deception;Intimidation;AnimalHandling;Arcana;Insight;Medicine;Nature"/>
+                    <attribute id="Level" type="int32" value="1"/>
+                    <attribute id="SelectorId" type="LSString" value="HumanVersatility"/>
+                    <attribute id="TableUUID" type="guid" value="eb9db11d-1091-49fa-9006-2f52bbb76f6a"/>
+                    <attribute id="UUID" type="guid" value="261eab61-b3ac-46e3-bc36-56bacb572959"/>
+                </node>
+				<node id="DefaultValue">
+                    <attribute id="Add" type="LSString" value="Persuasion;Survival;Investigation;Performance;History;Religion;Perception;Stealth;SleightOfHand;Athletics;Acrobatics;Deception;Intimidation;AnimalHandling;Arcana;Insight;Medicine;Nature"/>
+                    <attribute id="Level" type="int32" value="1"/>
+                    <attribute id="SelectorId" type="LSString" value="HumanVersatility"/>
+                    <attribute id="TableUUID" type="guid" value="eb9db11d-1091-49fa-9006-2f52bbb76f6a"/>
+                    <attribute id="UUID" type="guid" value="3887e7af-0ac7-4254-8f7b-21e084cbf514"/>
+                </node>
+				<node id="DefaultValue">
+                    <attribute id="Add" type="LSString" value="Persuasion;Survival;Investigation;Performance;History;Religion;Perception;Stealth;SleightOfHand;Athletics;Acrobatics;Deception;Intimidation;AnimalHandling;Arcana;Insight;Medicine;Nature"/>
+                    <attribute id="Level" type="int32" value="1"/>
+                    <attribute id="SelectorId" type="LSString" value="HumanVersatility"/>
+                    <attribute id="TableUUID" type="guid" value="a43498f5-d72f-4a05-b721-1feea9acb3ad"/>
+                    <attribute id="UUID" type="guid" value="d6861000-0c60-42a2-9013-45f15a72442a"/>
+                </node>
+				<node id="DefaultValue">
+                    <attribute id="Add" type="LSString" value="Persuasion;Survival;Investigation;Performance;History;Religion;Perception;Stealth;SleightOfHand;Athletics;Acrobatics;Deception;Intimidation;AnimalHandling;Arcana;Insight;Medicine;Nature"/>
+                    <attribute id="Level" type="int32" value="1"/>
+                    <attribute id="SelectorId" type="LSString" value="HumanVersatility"/>
+                    <attribute id="TableUUID" type="guid" value="d93def5b-a2df-4675-8a33-e47c9647eeae"/>
+                    <attribute id="UUID" type="guid" value="0fba7c24-0605-47f9-b53e-f79412127171"/>
+                </node>
+				<node id="DefaultValue">
+                    <attribute id="Add" type="LSString" value="Persuasion;Survival;Investigation;Performance;History;Religion;Perception;Stealth;SleightOfHand;Athletics;Acrobatics;Deception;Intimidation;AnimalHandling;Arcana;Insight;Medicine;Nature"/>
+                    <attribute id="Level" type="int32" value="1"/>
+                    <attribute id="SelectorId" type="LSString" value="HumanVersatility"/>
+                    <attribute id="TableUUID" type="guid" value="5f06db9e-31b0-41d9-bfbe-3446323c4bf6"/>
+                    <attribute id="UUID" type="guid" value="54f92685-303d-4f35-85cb-a6500c882da3"/>
+                </node>
+				<node id="DefaultValue">
+                    <attribute id="Add" type="LSString" value="Persuasion;Survival;Investigation;Performance;History;Religion;Perception;Stealth;SleightOfHand;Athletics;Acrobatics;Deception;Intimidation;AnimalHandling;Arcana;Insight;Medicine;Nature"/>
+                    <attribute id="Level" type="int32" value="1"/>
+                    <attribute id="SelectorId" type="LSString" value="HumanVersatility"/>
+                    <attribute id="TableUUID" type="guid" value="c1d4adfe-9f00-44b4-a433-a45250d00631"/>
+                    <attribute id="UUID" type="guid" value="48400ec0-68ad-45d7-8cda-aa61684d7e29"/>
+                </node>
+				<node id="DefaultValue">
+                    <attribute id="Add" type="LSString" value="Persuasion;Survival;Investigation;Performance;History;Religion;Perception;Stealth;SleightOfHand;Athletics;Acrobatics;Deception;Intimidation;AnimalHandling;Arcana;Insight;Medicine;Nature"/>
+                    <attribute id="Level" type="int32" value="1"/>
+                    <attribute id="SelectorId" type="LSString" value="HumanVersatility"/>
+                    <attribute id="TableUUID" type="guid" value="7e1ae395-6f2a-456b-ab64-1012c18065d4"/>
+                    <attribute id="UUID" type="guid" value="087e8d94-4fd8-43a3-85be-165126863b72"/>
+                </node>
+				<node id="DefaultValue">
+                    <attribute id="Add" type="LSString" value="Persuasion;Survival;Investigation;Performance;History;Religion;Perception;Stealth;SleightOfHand;Athletics;Acrobatics;Deception;Intimidation;AnimalHandling;Arcana;Insight;Medicine;Nature"/>
+                    <attribute id="Level" type="int32" value="1"/>
+                    <attribute id="SelectorId" type="LSString" value="HumanVersatility"/>
+                    <attribute id="TableUUID" type="guid" value="1640733f-c32b-4d9d-9132-5ca6e985155c"/>
+                    <attribute id="UUID" type="guid" value="4d109caa-3469-425d-9c3f-827f1de26102"/>
+                </node>
+				<node id="DefaultValue">
+                    <attribute id="Add" type="LSString" value="Persuasion;Survival;Investigation;Performance;History;Religion;Perception;Stealth;SleightOfHand;Athletics;Acrobatics;Deception;Intimidation;AnimalHandling;Arcana;Insight;Medicine;Nature"/>
+                    <attribute id="Level" type="int32" value="1"/>
+                    <attribute id="SelectorId" type="LSString" value="HumanVersatility"/>
+                    <attribute id="TableUUID" type="guid" value="e2472b4f-682a-4ac8-b11c-723f921fd7a1"/>
+                    <attribute id="UUID" type="guid" value="aa2a1e76-8005-4700-9747-a7afd5daa4f0"/>
+                </node>
+				<node id="DefaultValue">
+                    <attribute id="Add" type="LSString" value="Persuasion;Survival;Investigation;Performance;History;Religion;Perception;Stealth;SleightOfHand;Athletics;Acrobatics;Deception;Intimidation;AnimalHandling;Arcana;Insight;Medicine;Nature"/>
+                    <attribute id="Level" type="int32" value="1"/>
+                    <attribute id="SelectorId" type="LSString" value="HumanVersatility"/>
+                    <attribute id="TableUUID" type="guid" value="74e2e44d-e8c0-4b99-a6dc-c02f43cea8a6"/>
+                    <attribute id="UUID" type="guid" value="749b682d-e4c8-44ff-bdb9-29f1f5107459"/>
+                </node>
+				<node id="DefaultValue">
+                    <attribute id="Add" type="LSString" value="Persuasion;Survival;Investigation;Performance;History;Religion;Perception;Stealth;SleightOfHand;Athletics;Acrobatics;Deception;Intimidation;AnimalHandling;Arcana;Insight;Medicine;Nature"/>
+                    <attribute id="Level" type="int32" value="1"/>
+                    <attribute id="SelectorId" type="LSString" value="HumanVersatility"/>
+                    <attribute id="TableUUID" type="guid" value="81e2cb57-6a12-4429-b3a5-f72549355b3b"/>
+                    <attribute id="UUID" type="guid" value="f2388483-e3f4-4e04-994d-433eb4cd6a73"/>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>
