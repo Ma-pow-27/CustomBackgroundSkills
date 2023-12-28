@@ -7,7 +7,7 @@
 				{
 					"Action": "Remove",
 					"Function": "SelectSkills",
-					"ListUUID": "f974ebd6-3725-4b90-bb5c-2b647d41615d"
+					"UUID": "f974ebd6-3725-4b90-bb5c-2b647d41615d"
 				},
 				{
 					"Action": "Insert",
