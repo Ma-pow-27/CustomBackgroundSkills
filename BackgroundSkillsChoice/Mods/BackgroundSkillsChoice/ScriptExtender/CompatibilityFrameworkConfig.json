@@ -7,7 +7,7 @@
 				{
 					"Action": "Remove",
 					"Function": "SelectSkills",
-					"ListUUID": "233793b3-838a-4d4e-9d68-1e0a1089aba5"
+					"UUID": "233793b3-838a-4d4e-9d68-1e0a1089aba5"
 				},
 				{
 					"Action": "Insert",
@@ -25,7 +25,7 @@
 				{
 					"Action": "Remove",
 					"Function": "SelectSkills",
-					"ListUUID": "ed664663-93b9-4070-a54b-3c7b19c0e7b4"
+					"UUID": "ed664663-93b9-4070-a54b-3c7b19c0e7b4"
 				},
 				{
 					"Action": "Insert",
@@ -43,7 +43,7 @@
 				{
 					"Action": "Remove",
 					"Function": "SelectSkills",
-					"ListUUID": "6cb9d731-a518-46f0-b20e-9e2bf18e6acd"
+					"UUID": "6cb9d731-a518-46f0-b20e-9e2bf18e6acd"
 				},
 				{
 					"Action": "Insert",
@@ -61,7 +61,7 @@
 				{
 					"Action": "Remove",
 					"Function": "SelectSkills",
-					"ListUUID": "a3e28a89-3c36-4516-a1ed-c8061ba7f166"
+					"UUID": "a3e28a89-3c36-4516-a1ed-c8061ba7f166"
 				},
 				{
 					"Action": "Insert",
@@ -79,7 +79,7 @@
 				{
 					"Action": "Remove",
 					"Function": "SelectSkills",
-					"ListUUID": "6a4f8598-3a17-42d1-beac-d7ced582bafa"
+					"UUID": "6a4f8598-3a17-42d1-beac-d7ced582bafa"
 				},
 				{
 					"Action": "Insert",
@@ -97,7 +97,7 @@
 				{
 					"Action": "Remove",
 					"Function": "SelectSkills",
-					"ListUUID": "5f1c7177-6e28-4a42-a7a5-cfaf4c31519c"
+					"UUID": "5f1c7177-6e28-4a42-a7a5-cfaf4c31519c"
 				},
 				{
 					"Action": "Insert",
@@ -115,7 +115,7 @@
 				{
 					"Action": "Remove",
 					"Function": "SelectSkills",
-					"ListUUID": "627af380-2bbb-4a9f-9571-5ec781a6daf4"
+					"UUID": "627af380-2bbb-4a9f-9571-5ec781a6daf4"
 				},
 				{
 					"Action": "Insert",
@@ -133,7 +133,7 @@
 				{
 					"Action": "Remove",
 					"Function": "SelectSkills",
-					"ListUUID": "9e31661e-4c14-499d-98ca-9e00b20faf07"
+					"UUID": "9e31661e-4c14-499d-98ca-9e00b20faf07"
 				},
 				{
 					"Action": "Insert",
@@ -151,7 +151,7 @@
 				{
 					"Action": "Remove",
 					"Function": "SelectSkills",
-					"ListUUID": "a1c2b712-2ed6-4e5b-820f-c5db654fe006"
+					"UUID": "a1c2b712-2ed6-4e5b-820f-c5db654fe006"
 				},
 				{
 					"Action": "Insert",
@@ -169,7 +169,7 @@
 				{
 					"Action": "Remove",
 					"Function": "SelectSkills",
-					"ListUUID": "8743f14b-64de-4858-b056-50902a00df1a"
+					"UUID": "8743f14b-64de-4858-b056-50902a00df1a"
 				},
 				{
 					"Action": "Insert",
@@ -187,7 +187,7 @@
 				{
 					"Action": "Remove",
 					"Function": "SelectSkills",
-					"ListUUID": "675236ba-c3cc-44ec-a58b-0e46351c85bd"
+					"UUID": "675236ba-c3cc-44ec-a58b-0e46351c85bd"
 				},
 				{
 					"Action": "Insert",
@@ -205,7 +205,7 @@
 				{
 					"Action": "Remove",
 					"Function": "SelectSkills",
-					"ListUUID": "9f3a9f8d-f645-40b5-b36f-fb079b7b805e"
+					"UUID": "9f3a9f8d-f645-40b5-b36f-fb079b7b805e"
 				},
 				{
 					"Action": "Insert",
