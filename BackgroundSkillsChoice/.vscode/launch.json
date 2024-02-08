@@ -1,0 +1,20 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "bg3lua",
+            "request": "launch",
+            "name": "BG3 Script Extender Lua Debug",
+            "program": "C:\\Users\\mapow\\OneDrive\\Desktop\\Mod Dev\\LuaDebugger.exe",
+            "backendHost": "127.0.0.1",
+            "backendPort": 9998,
+            "preLaunchTask": "bg3Continue",
+			"postDebugTask": "bg3Kill",
+			"internalConsoleOptions": "openOnSessionStart",
+            "dbgOptions": {
+                "breakOnError": true,
+                "breakOnGenericError": false
+            }
+        }
+    ]
+}
