@@ -7,6 +7,24 @@ function GenerateUUID()
     end)
 end
 
+local ExcludedProgressions = {
+    "CL_",
+    "Trips_Aasimar_1"
+}
+
+function DoNotExclude(ProgressionName)
+    -- write exclusion function for certian progressions
+    for index, value in ipairs(ExcludedProgressions) do
+        if (string.find(ProgressionName, value) ~= nil) 
+        then
+            return false
+        end
+    end
+    return true
+    -- returns true or false if the input should be excluded from the ReleventProgressions array
+end
+
+
 --_P(GenerateUUID())
 
 Ext.Events.StatsLoaded:Subscribe(function (e)
@@ -32,16 +50,17 @@ Ext.Events.StatsLoaded:Subscribe(function (e)
     -- Identify progressions to update
     local ReleventProgressions = {}
 
+
     for _,guid in pairs(Progressions) do
         local Data = Ext.StaticData.Get(guid,"Progression")
         if(Data.Level == 1 and Data.ProgressionType == 2)
         then
-            if((string.find(tostring(Data.Name), "CL_") == nil))
+            if(DoNotExclude(Data.Name))
             then
                 --_P("Adding " .. Data.Name)
                 local iter = 1
                 while (iter <= #ReleventProgressions) do
-                    if((string.find(tostring(Data.Name), ReleventProgressions[iter].Name) ~= nil))
+                    if(string.find(tostring(Data.Name), ReleventProgressions[iter].Name) ~= nil)
                     then
                         --_P(string.format("Removing %s", ReleventProgressions[iter].Name))
                         table.remove(ReleventProgressions, iter)
