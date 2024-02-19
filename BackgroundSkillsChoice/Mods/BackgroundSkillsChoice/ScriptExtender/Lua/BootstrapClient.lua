@@ -1,4 +1,5 @@
 math.random(Ext.Utils.MonotonicTime())
+
 function GenerateUUID()
     local template ='xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'
     return string.gsub(template, '[xy]', function(c)
@@ -24,15 +25,14 @@ function DoNotExclude(ProgressionName)
     -- returns true or false if the input should be excluded from the ReleventProgressions array
 end
 
+GenerateUUID()
 
---_P(GenerateUUID())
+
 
 Ext.Events.StatsLoaded:Subscribe(function (e)
 
     local Passives = Ext.Stats.GetStats("PassiveData")
     local Progressions = Ext.StaticData.GetAll("Progression")
-
-    --local SkillLists = Ext.StaticData.GetAll("SkillList")
     
     --Passive Background skill proficencies removal
     for _,name in pairs(Passives) do
@@ -92,10 +92,52 @@ Ext.Events.StatsLoaded:Subscribe(function (e)
     end
 
     --set default values of the added skills choices
-    --[[ _D(SkillLists)
-    for _,guid in pairs(SkillLists) do
-        local Data = Ext.StaticData.Get(guid,"SkillList")
-        _D(Data)
-    end ]]
+    
+    --[[ local SkillsDF = Ext.StaticData.GetAll("SkillDefaultValues")
+    local NumDefaultSkills = #SkillsDF
 
+    for num, item  in pairs(ReleventProgressions) do
+        local ReleventTableUUID = item.TableUUID
+        _P(ReleventTableUUID)
+
+        local NewGuid = GenerateUUID()
+
+        SkillsDF[NumDefaultSkills + num] = NewGuid
+        _P(NewGuid)
+        _P(Ext.StaticData.Get(NewGuid, "SkillDefaultValues"))
+
+            {
+                Add = {
+                    "Persuasion",
+                    "Survival",
+                    "Investigation",
+                    "Performance",
+                    "History",
+                    "Religion",
+                    "Perception",
+                    "Stealth",
+                    "SleightOfHand",
+                    "Athletics",
+                    "Acrobatics",
+                    "Deception",
+                    "Intimidation",
+                    "AnimalHandling",
+                    "Arcana",
+                    "Insight",
+                    "Medicine",
+                    "Nature"
+                },
+                Level = 1,
+                SelectorId = "HumanVersatility",
+                TableUUID = ReleventTableUUID,
+                ResourceUUID = NewGuid
+            }
+    end
+
+    for key, value in pairs(SkillsDF) do
+        local Data = Ext.StaticData.Get(value,"SkillDefaultValues")
+        _D(value)
+        _D(Data)
+    end  ]]
+    
 end)
